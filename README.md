@@ -20,12 +20,6 @@ An Implicit Neural Representation is a neural network that learns to represent a
 
 ### Results
 
-```
-Noisy  vs Clean (baseline)           MSE=0.002500  MAE=0.040  r=0.9995
-INR Reconstruction vs Clean          MSE=0.002577  MAE=0.040  r=0.9995
-INR Interpolation vs Ground Truth    MSE≈0.002600  MAE≈0.041  r≈0.9995
-```
-
 The INR matches the noisy baseline in denoising quality while generalising smoothly to unseen coordinates.
 
 ## Repository structure
